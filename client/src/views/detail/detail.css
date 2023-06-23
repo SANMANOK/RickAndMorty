@@ -1,0 +1,28 @@
+.detail-container {
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+    border: solid 1px #08977b;
+    margin: 0 auto;
+    max-height: 400px;
+    padding: 14px;
+    border-radius: 7px;
+    color: #08977b;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .details div {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  .details p {
+    margin-left: 30px;
+  }
